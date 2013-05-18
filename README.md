@@ -7,4 +7,4 @@ We are currently looking for someone/someones to be the designated "maintainer" 
 
 If you are interested, contact ottocode!
 
-The current website depends on the bootstrap library which we have forked as a seperate USDACM repository.  If you would like to work on the site, you need to also get the bootstrap libraries.  If you want to become the maintainer and you decide that another library is the way to go, then feel free!  (Or if you want to set up a better way to include the bootstrap library, that would be awesome).
+The current website depends on the bootstrap library which we have forked as a seperate USDACM repository.  If you want to become the maintainer and you decide that another library is the way to go, then feel free!  (Or if you want to set up a better way to include the bootstrap library, that would be awesome).
