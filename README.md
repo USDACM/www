@@ -7,4 +7,10 @@ We are currently looking for someone/someones to be the designated "maintainer" 
 
 If you are interested, contact ottocode!
 
-The current website depends on the bootstrap library which we have forked as a seperate USDACM repository.  If you want to become the maintainer and you decide that another library is the way to go, then feel free!  (Or if you want to set up a better way to include the bootstrap library, that would be awesome).
+After playing with a number of things, I've switched to using the foundation framework.  Foundation seems to be a little more straightforward and has, in my opinion, simpler documentation.
+
+TODO list:
+create the events, projects, tutoring pages.
+add a signup for updates
+add links to our github and usd torrero link pages.
+
