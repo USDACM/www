@@ -1,0 +1,2970 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Appointments+\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-07-16 14:42+0100\n"
+"PO-Revision-Date: 2013-07-16 14:42+0100\n"
+"Last-Translator: incsub.com <hakan@incsub.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: /Volumes/Trunk/xampp/htdocs/3.5-dev-1/wp-content/plugins/"
+"appointments\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-SearchPath-0: includes\n"
+"X-Poedit-SearchPath-1: includes/addons\n"
+"X-Poedit-SearchPath-2: includes/gcal\n"
+"X-Poedit-SearchPath-3: includes/support\n"
+
+#: includes/class.gcal.php:43
+msgid "Session could not be started. This may indicate a theme issue."
+msgstr ""
+
+#: includes/class.gcal.php:77
+msgid "GCal Mode"
+msgstr ""
+
+#: includes/class.gcal.php:98
+msgid "None"
+msgstr ""
+
+#: includes/class.gcal.php:99
+msgid "A+->GCal"
+msgstr ""
+
+#: includes/class.gcal.php:100
+msgid "A+<->GCal"
+msgstr ""
+
+#: includes/class.gcal.php:132
+msgid ""
+"Appointments+ can integrate with Google Calendar accounts by 2 different "
+"ways: 1) Google Calendar Button 2) Google Calendar API."
+msgstr ""
+
+#: includes/class.gcal.php:135
+msgid ""
+"Google Calendar Button method is simple to implement, but it is semi-"
+"automatic, that is, client or service provider should click the button to "
+"submit the appointment to his Google calendar account."
+msgstr ""
+
+#: includes/class.gcal.php:138
+msgid ""
+"Setting of Google Calendar API is sophisticated because of requirements and "
+"security measures of Google itself, but once it is correctly set, "
+"appointments are automatically sent to the Google calendar account. "
+"Synchronization (automatic import of Google Calendar events to Appointments"
+"+) is also possible with the API method. Clients cannot use API method; only "
+"website itself and/or service providers can use it. Note: Each service "
+"provider should carry out the below setting steps, if they want to follow "
+"their appointments on their own calendars."
+msgstr ""
+
+#: includes/class.gcal.php:145
+msgid "Google Calendar General Setting"
+msgstr ""
+
+#: includes/class.gcal.php:150
+msgid "Google Calendar Location"
+msgstr ""
+
+#: includes/class.gcal.php:153
+msgid ""
+"Enter the text that will be used as location field in Google Calendar. If "
+"left empty, your website description is sent instead. Note: You can use "
+"ADDRESS and CITY placeholders which will be replaced by their real values."
+msgstr ""
+
+#: includes/class.gcal.php:164
+msgid "Google Calendar Button Settings"
+msgstr ""
+
+#: includes/class.gcal.php:169
+msgid "Add Google Calendar Button"
+msgstr ""
+
+#: includes/class.gcal.php:172 includes/class.gcal.php:209
+msgid "No"
+msgstr ""
+
+#: includes/class.gcal.php:173 includes/class.gcal.php:210
+msgid "Yes"
+msgstr ""
+
+#: includes/class.gcal.php:176
+msgid ""
+"Whether to let client access his Google Calendar account using Google "
+"Calendar button. Button is inserted in the confirmation area, as well as My "
+"Appointments shortcode and user page/tab if applicable."
+msgstr ""
+
+#: includes/class.gcal.php:181
+msgid "Open Google Calendar in the Same Window"
+msgstr ""
+
+#: includes/class.gcal.php:184
+msgid ""
+"As default, Google Calendar is opened in a new tab or window. If you check "
+"this option, user will be redirected to Google Calendar from the appointment "
+"page, without opening a new tab or window. Note: While applying for the "
+"appointment, this is effective if payment is not required, or price is zero "
+"(Otherwise payment button/form would be lost)."
+msgstr ""
+
+#: includes/class.gcal.php:193
+msgid "Google Calendar API Settings - BETA"
+msgstr ""
+
+#: includes/class.gcal.php:195
+msgid ""
+"<b>Important Note:</b> Google Calendar API for Appointments+ is in Beta "
+"stage, because as of February 2013, Google itself does not officially list "
+"Google Calendar in its supported \"Service Accounts\" which this plugin "
+"needs. However, we tested it on several websites and saw that it is working. "
+"There may be some restrictions by Google that we may not know. Use this "
+"option carefully and please give us feedback about the results."
+msgstr ""
+
+#: includes/class.gcal.php:197
+msgid ""
+"<b>Note on Google account/calendar that will be used:</b> A namely selected "
+"service provider is connected to the calendar selected in his profile page "
+"and \"No preference\" service provider is connected to the calendar selected "
+"on this page (also possible to have a copy of all new appointments in this "
+"calendar if you select \"All\" below)"
+msgstr ""
+
+#: includes/class.gcal.php:199
+msgid ""
+"<b>Note for Google Business Account users:</b> GCal API usage is not free of "
+"charge for business accounts. You should first contact Google sales "
+"department to make it available or use an individual account instead."
+msgstr ""
+
+#: includes/class.gcal.php:201
+msgid ""
+"<b>Note on deleting an appointment or event:</b> To prevent authority "
+"conflicts, deletion is only possible from the side that appointment/event "
+"created in the first place. For example, you cannot delete an appointment "
+"using Google Calendar if it has been saved there by A+. You must delete the "
+"appointment using A+ admin pages, which will automatically remove the event "
+"associated with it. But deleting such an event in Google Calendar will NOT "
+"remove the appointment."
+msgstr ""
+
+#: includes/class.gcal.php:206
+msgid "Allow Service Providers for Google Calendar API Integration"
+msgstr ""
+
+#: includes/class.gcal.php:213
+msgid ""
+"Whether you let your service providers to integrate with their own Google "
+"Calendar account using their profile page. Note: Each of them will need to "
+"set up their accounts following the steps as listed in Instructions below "
+"(will also be shown in their profile pages) and you will need to upload "
+"their key files yourself using FTP."
+msgstr ""
+
+#: includes/class.gcal.php:218
+msgid "Appointments will be sent to Google Calendar for"
+msgstr ""
+
+#: includes/class.gcal.php:221
+msgid "All"
+msgstr ""
+
+#: includes/class.gcal.php:222
+msgid "No preference case"
+msgstr ""
+
+#: includes/class.gcal.php:225
+msgid ""
+"If you select \"All\", any appointment made from this website will be sent "
+"to the selected calendar. If you select \"No preference case\", only "
+"appointments which do not have an assigned service provider will be sent."
+msgstr ""
+
+#: includes/class.gcal.php:238
+msgid "Save Settings"
+msgstr ""
+
+#: includes/class.gcal.php:258 includes/class.gcal.php:804
+msgid "Your server installation meets requirements."
+msgstr ""
+
+#: includes/class.gcal.php:265
+msgid ""
+"Test is successful. Please REFRESH your Google Calendar and check that test "
+"appointment has been saved."
+msgstr ""
+
+#: includes/class.gcal.php:278
+msgid ""
+"No future new events are found in your Google calendar. Thus no events are "
+"imported and no updates and deletions made."
+msgstr ""
+
+#: includes/class.gcal.php:292
+msgid "Do NOT use your primary Google calendar, but create a new one."
+msgstr ""
+
+#: includes/class.gcal.php:295
+msgid "The following error has been reported by Google Calendar API:<br />"
+msgstr ""
+
+#: includes/class.gcal.php:296
+msgid "<b>Recommendation:</b> Please double check your settings."
+msgstr ""
+
+#: includes/class.gcal.php:328
+msgid "Integration Mode"
+msgstr ""
+
+#: includes/class.gcal.php:331
+msgid "Integration disabled"
+msgstr ""
+
+#: includes/class.gcal.php:332
+msgid "A+ -> GCal (Only export appointments)"
+msgstr ""
+
+#: includes/class.gcal.php:333
+msgid "A+ <-> GCal (Synchronization)"
+msgstr ""
+
+#: includes/class.gcal.php:336
+msgid ""
+"Select method of integration. A+ -> GCal setting sends appointments to your "
+"selected Google calendar, but events in your Google Calendar account are not "
+"imported to Appointments+ and thus they do not reserve your available "
+"working times. A+ <-> GCal setting works in both directions. This "
+"synchronization is not immediate; it requires at least some traffic to your "
+"website and not handled less than 10 minutes intervals. To update it "
+"manually use \"Import and Update Events Now\" link which is only visible if "
+"the settings let it so."
+msgstr ""
+
+#: includes/class.gcal.php:348
+msgid ""
+"Clicking this link will manually import and update your Events from the "
+"selected calendar without waiting for 10 minutes. Note: Maximum 500 future "
+"events that will start until appointment limit setting are imported in the "
+"order of their starting time. Past events and all day events are not "
+"imported."
+msgstr ""
+
+#: includes/class.gcal.php:355
+msgid "Key file name"
+msgstr ""
+
+#: includes/class.gcal.php:359
+msgid ""
+"Enter key file name here without extention, e.g. ab12345678901234567890-"
+"privatekey"
+msgstr ""
+
+#: includes/class.gcal.php:364
+msgid "Service account email address"
+msgstr ""
+
+#: includes/class.gcal.php:368
+msgid ""
+"Enter Service account email address here, e.g. 1234567890@developer."
+"gserviceaccount.com"
+msgstr ""
+
+#: includes/class.gcal.php:373
+msgid "Calendar to be used"
+msgstr ""
+
+#: includes/class.gcal.php:377
+msgid ""
+"Enter the ID of the Google calendar in which your appointments will be "
+"saved, e.g. abcdefg1234567890@group.calendar.google.com."
+msgstr ""
+
+#: includes/class.gcal.php:382
+msgid "Event summary (name)"
+msgstr ""
+
+#: includes/class.gcal.php:389
+msgid "Event description"
+msgstr ""
+
+#: includes/class.gcal.php:394
+msgid ""
+"For the above 2 fields, you can use the following placeholders which will be "
+"replaced by their real values:"
+msgstr ""
+
+#: includes/class.gcal.php:394
+msgid "(Client's email)"
+msgstr ""
+
+#: includes/class.gcal.php:396
+msgid "Please be careful about privacy if your calendar is public."
+msgstr ""
+
+#: includes/class.gcal.php:408
+msgid "Test Connection"
+msgstr ""
+
+#: includes/class.gcal.php:410
+msgid ""
+"Clicking this link will attempt to connect your GCal account and write a "
+"sample appointment which lasts 30 minutes and starts 10 minutes after your "
+"current server time. If there are some setting or connection errors, you "
+"will be informed about them."
+msgstr ""
+
+#: includes/class.gcal.php:424
+msgid "Instructions"
+msgstr ""
+
+#: includes/class.gcal.php:426
+msgid ""
+"To set up Google Calendar API, please click the \"i\" icon and carefully "
+"follow these steps:"
+msgstr ""
+
+#: includes/class.gcal.php:427
+msgid "Click to toggle instructions"
+msgstr ""
+
+#: includes/class.gcal.php:429
+#, php-format
+msgid "Tip: There is a video tutorial showing these steps %s."
+msgstr ""
+
+#: includes/class.gcal.php:429
+msgid "here"
+msgstr ""
+
+#: includes/class.gcal.php:432
+#, php-format
+msgid ""
+"Google Calendar API requires php V5.3+ and some php extensions. Click this "
+"link to check if your server installation meets those requirements: %s"
+msgstr ""
+
+#: includes/class.gcal.php:432
+msgid "Check Requirements"
+msgstr ""
+
+#: includes/class.gcal.php:436
+#, php-format
+msgid ""
+"Go to Google apis console by clicking %s. Login to your Google account if "
+"you are not already logged in."
+msgstr ""
+
+#: includes/class.gcal.php:440
+msgid ""
+"Create a new project using the left side pane. Name the project as "
+"Appointments+"
+msgstr ""
+
+#: includes/class.gcal.php:444
+msgid "Click \"Services\" from left side pane and set \"Calendar API\" as ON."
+msgstr ""
+
+#: includes/class.gcal.php:448
+msgid "Click \"API Access\" from left side pane."
+msgstr ""
+
+#: includes/class.gcal.php:452
+msgid "Click \"Create an OAuth 2.0 Client ID\" button."
+msgstr ""
+
+#: includes/class.gcal.php:456
+msgid "Enter a Product Name, e.g. A+, inside the opening pop-up. Click Next."
+msgstr ""
+
+#: includes/class.gcal.php:460
+msgid "Select \"Service account\" under Client ID Settings in the new pop-up."
+msgstr ""
+
+#: includes/class.gcal.php:464
+msgid "Click \"create Client ID\". Getting the result may take a few seconds."
+msgstr ""
+
+#: includes/class.gcal.php:468
+msgid "Click \"Download private key\" button in the opening pop-up."
+msgstr ""
+
+#: includes/class.gcal.php:472
+#, php-format
+msgid ""
+"Using your FTP client program, copy this key file to folder: %s . This file "
+"is required as you will grant access to your Google Calendar account even if "
+"you are not online. So this file serves as a proof of your consent to access "
+"to your Google calendar account. Note: This file cannot be uploaded in any "
+"other way. If you do not have FTP access, ask the website admin to do it for "
+"you."
+msgstr ""
+
+#: includes/class.gcal.php:476
+msgid ""
+"Enter the name of the key file to \"Key file name\" setting of Appointments"
+"+. Exclude the extention .p12."
+msgstr ""
+
+#: includes/class.gcal.php:480
+msgid ""
+"Copy \"Email address\" setting of Google apis console and paste it to "
+"\"Service account email address\" setting of Appointments+."
+msgstr ""
+
+#: includes/class.gcal.php:484
+#, php-format
+msgid "Open your Google Calendar by clicking this link: %s"
+msgstr ""
+
+#: includes/class.gcal.php:488
+#, php-format
+msgid ""
+"Create a new Calendar by selecting \"my Calendars > Create new calendar\" on "
+"left side pane. <b>Try NOT to use your primary calendar. If you have to, "
+"please see this post: </b> %s"
+msgstr ""
+
+#: includes/class.gcal.php:488
+msgid "Forum"
+msgstr ""
+
+#: includes/class.gcal.php:492
+msgid ""
+"Give a name to the new calendar, e.g. Appointments test calendar. <b>Check "
+"that Calendar Time Zone setting matches with time zone setting of your "
+"WordPress website.</b> Otherwise there will be a time shift."
+msgstr ""
+
+#: includes/class.gcal.php:496
+msgid ""
+"Paste already copied \"Email address\" setting of Google apis console to "
+"\"Person\" field under \"Share with specific person\"."
+msgstr ""
+
+#: includes/class.gcal.php:500
+msgid ""
+"Set \"Permission Settings\" of this person as \"make changes to events\"."
+msgstr ""
+
+#: includes/class.gcal.php:504
+msgid "Click \"Add Person\"."
+msgstr ""
+
+#: includes/class.gcal.php:508
+msgid "Click \"Create Calendar\"."
+msgstr ""
+
+#: includes/class.gcal.php:512
+msgid "Select the created calendar and click \"Calendar settings\"."
+msgstr ""
+
+#: includes/class.gcal.php:516
+msgid "Copy \"Calendar ID\" value on Calendar Address row."
+msgstr ""
+
+#: includes/class.gcal.php:520
+msgid ""
+"Paste this value to \"Calendar to be used\" field of Appointments+ settings."
+msgstr ""
+
+#: includes/class.gcal.php:524
+msgid "Select the desired Integration mode: A+->GCal or A+<->GCal."
+msgstr ""
+
+#: includes/class.gcal.php:528
+msgid "Click \"Save Settings\" on Appointments+ settings."
+msgstr ""
+
+#: includes/class.gcal.php:532
+msgid ""
+"After these stages, you have set up Google Calendar API. To test the "
+"connection, click the \"Test Connection\" link which should be visible after "
+"you clicked save settings button."
+msgstr ""
+
+#: includes/class.gcal.php:536
+msgid ""
+"If you get a success message, you should see a test event inserted to the "
+"Google Calendar and you are ready to go. If you get an error message, double "
+"check your settings."
+msgstr ""
+
+#: includes/class.gcal.php:563
+#, php-format
+msgid "<b>[Appointments+]</b> %s"
+msgstr ""
+
+#: includes/class.gcal.php:582
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: includes/class.gcal.php:634
+msgid ""
+"Client Name: CLIENT\n"
+"Service Name: SERVICE\n"
+"Service Provider Name: SERVICE_PROVIDER\n"
+msgstr ""
+
+#: includes/class.gcal.php:644
+msgid "SERVICE Appointment"
+msgstr ""
+
+#: includes/class.gcal.php:784
+msgid ""
+"You have to update the Appointments+ tables. To do so, deactivate and "
+"reactivate the plugin."
+msgstr ""
+
+#: includes/class.gcal.php:787
+msgid "Google PHP API Client requires at least PHP 5.3"
+msgstr ""
+
+#: includes/class.gcal.php:791
+#, php-format
+msgid ""
+"Google PHP API Client requires at least 32 MByte Server RAM. Please check "
+"this link how to increase it: %s"
+msgstr ""
+
+#: includes/class.gcal.php:791
+msgid "Increasing_memory_allocated_to_PHP"
+msgstr ""
+
+#: includes/class.gcal.php:794
+msgid "Google PHP API Client requires the CURL PHP extension"
+msgstr ""
+
+#: includes/class.gcal.php:797
+msgid "Google PHP API Client requires the JSON PHP extension"
+msgstr ""
+
+#: includes/class.gcal.php:800
+msgid "Google PHP API Client requires http_build_query()"
+msgstr ""
+
+#: includes/class.gcal.php:807
+msgid "Key file does not exist"
+msgstr ""
+
+#: includes/class.gcal.php:931
+#, php-format
+msgid "%s Appointment"
+msgstr ""
+
+#: includes/class.gcal.php:1007
+msgid "Test client name"
+msgstr ""
+
+#: includes/class.gcal.php:1008
+msgid "Test phone"
+msgstr ""
+
+#: includes/class.gcal.php:1009
+msgid "Test address"
+msgstr ""
+
+#: includes/class.gcal.php:1010
+msgid "Test city"
+msgstr ""
+
+#: includes/class.gcal.php:1017
+msgid "This is a test appointment inserted by Appointments+"
+msgstr ""
+
+#: includes/class.gcal.php:1191
+#, php-format
+msgid "%s appointment record(s) affected."
+msgstr ""
+
+#: includes/class.gcal.php:1207
+#, php-format
+msgid "%s appointment(s) deleted."
+msgstr ""
+
+#: includes/class_app_addon_helper.php:119
+msgid "Name"
+msgstr ""
+
+#: includes/class_app_addon_helper.php:120 includes/class_app_codec.php:103
+msgid "Description"
+msgstr ""
+
+#: includes/class_app_addon_helper.php:139
+msgid "Deactivate"
+msgstr ""
+
+#: includes/class_app_addon_helper.php:141
+msgid "Activate"
+msgstr ""
+
+#: includes/class_app_addon_helper.php:147
+#, php-format
+msgid "Version %s"
+msgstr ""
+
+#: includes/class_app_addon_helper.php:149
+#, php-format
+msgid "by %s"
+msgstr ""
+
+#: includes/class_app_addon_helper.php:155
+msgid "Requires:"
+msgstr ""
+
+#: includes/class_app_addon_helper.php:166
+msgid ""
+"The add-on you are about to activate is in Beta state. This means that it's "
+"still under active development and might be rough around the edges.\n"
+"Are you sure you want to proceed?"
+msgstr ""
+
+#: includes/class_app_codec.php:16
+msgid "Pending"
+msgstr ""
+
+#: includes/class_app_codec.php:17
+msgid "Paid"
+msgstr ""
+
+#: includes/class_app_codec.php:18
+msgid "Confirmed"
+msgstr ""
+
+#: includes/class_app_codec.php:19
+msgid "Completed"
+msgstr ""
+
+#: includes/class_app_codec.php:20
+msgid "Reserved by GCal"
+msgstr ""
+
+#: includes/class_app_codec.php:21
+msgid "Removed"
+msgstr ""
+
+#: includes/class_app_codec.php:85
+msgid "Arguments"
+msgstr ""
+
+#: includes/class_app_codec.php:98
+#, php-format
+msgid "Shortcode <code>%s</code>"
+msgstr ""
+
+#: includes/class_app_codec.php:101
+msgid "Shortcode"
+msgstr ""
+
+#: includes/class_app_codec.php:141
+msgid "Allowed values:"
+msgstr ""
+
+#: includes/class_app_codec.php:144
+msgid "Example:"
+msgstr ""
+
+#: includes/class_app_roles.php:19
+msgid "Staff view options"
+msgstr ""
+
+#: includes/class_app_roles.php:20 includes/pointer-tutorials.php:134
+msgid "Tutorial"
+msgstr ""
+
+#: includes/class_app_roles.php:21
+msgid "Appointments page"
+msgstr ""
+
+#: includes/class_app_roles.php:22
+msgid "Transactions page"
+msgstr ""
+
+#: includes/class_app_roles.php:23 includes/class_app_roles.php:24
+msgid "Settings page"
+msgstr ""
+
+#: includes/class_app_roles.php:25
+msgid "FAQ page"
+msgstr ""
+
+#: includes/class_app_roles.php:26
+msgid "Dashboard widget"
+msgstr ""
+
+#: includes/class_app_roles.php:27
+msgid "Misc"
+msgstr ""
+
+#: includes/class_app_shortcodes.php:9
+#: includes/addons/app-locations-locations_on_google_maps.php:18
+msgid "Show Appointments with this status (comma-separated list)"
+msgstr ""
+
+#: includes/class_app_shortcodes.php:15
+msgid "Show Appointments calendar for service provider with this user ID"
+msgstr ""
+
+#: includes/class_app_shortcodes.php:20
+msgid "Show Appointments calendar for this month. Defaults to current month."
+msgstr ""
+
+#: includes/class_app_shortcodes.php:57
+msgid "Renders a calendar with appointments assigned to a service provider."
+msgstr ""
+
+#: includes/class_app_shortcodes.php:129
+#, php-format
+msgid "%dmin"
+msgstr ""
+
+#: includes/class_app_shortcodes.php:134
+#, php-format
+msgid "%.1fhr"
+msgstr ""
+
+#: includes/class_app_shortcodes.php:135
+#, php-format
+msgid "%dhr"
+msgstr ""
+
+#: includes/class_app_shortcodes.php:143
+msgid "Start"
+msgstr ""
+
+#: includes/class_app_shortcodes.php:145
+msgid "Duration"
+msgstr ""
+
+#: includes/class_app_shortcodes.php:147 includes/class_app_shortcodes.php:660
+#: includes/class_app_shortcodes.php:868
+msgid "Status"
+msgstr ""
+
+#: includes/class_app_shortcodes.php:149 includes/class_app_shortcodes.php:658
+#: includes/class_app_shortcodes.php:832
+msgid "Client"
+msgstr ""
+
+#: includes/class_app_shortcodes.php:203
+msgid "<h3>Our schedule from START to END</h3>"
+msgstr ""
+
+#: includes/class_app_shortcodes.php:204 includes/class_app_shortcodes.php:350
+msgid ""
+"Text that will be displayed as the schedule title. Placeholders START and "
+"END will be automatically replaced by their real values."
+msgstr ""
+
+#: includes/class_app_shortcodes.php:205
+msgid "Our schedule from START to END"
+msgstr ""
+
+#: includes/class_app_shortcodes.php:208 includes/class_app_shortcodes.php:210
+msgid "Click on a free time slot to apply for an appointment."
+msgstr ""
+
+#: includes/class_app_shortcodes.php:209 includes/class_app_shortcodes.php:355
+msgid ""
+"Text that will be displayed after the title only to the clients who are "
+"logged in or you don't require a login."
+msgstr ""
+
+#: includes/class_app_shortcodes.php:213 includes/class_app_shortcodes.php:215
+#: includes/class_app_shortcodes.php:359 includes/class_app_shortcodes.php:361
+msgid ""
+"You need to login to make an appointment. Please click here to register/"
+"login: LOGIN_PAGE"
+msgstr ""
+
+#: includes/class_app_shortcodes.php:214 includes/class_app_shortcodes.php:360
+msgid ""
+"Text that will be displayed after the title only to the clients who are not "
+"logged in and you require a login. LOGIN_PAGE will be replaced with your "
+"website's login page."
+msgstr ""
+
+#: includes/class_app_shortcodes.php:219 includes/class_app_shortcodes.php:365
+msgid ""
+"Enter service ID only if you want to force the table display the service "
+"with entered ID. Default: \"0\" (Service is selected by dropdown). Note: "
+"Multiple selections are not allowed."
+msgstr ""
+
+#: includes/class_app_shortcodes.php:224 includes/class_app_shortcodes.php:370
+msgid ""
+"Enter service provider ID only if you want to force the table display the "
+"service provider with entered ID. Default: \"0\" (Service provider is "
+"selected by dropdown). Note: Multiple selections are not allowed."
+msgstr ""
+
+#: includes/class_app_shortcodes.php:229 includes/class_app_shortcodes.php:375
+msgid ""
+"If entered 1, long week days are displayed on the schedule table row, e.g. "
+"\"Saturday\" instead of \"Sa\"."
+msgstr ""
+
+#: includes/class_app_shortcodes.php:234 includes/class_app_shortcodes.php:380
+msgid "A css class name for the schedule table. Default is empty."
+msgstr ""
+
+#: includes/class_app_shortcodes.php:239
+msgid ""
+"Number of weeks to add to the schedule to use for preceding weeks' "
+"schedules. Enter 1 for next week, 2 for the other week, so on. Default: "
+"\"0\" (Current week)"
+msgstr ""
+
+#: includes/class_app_shortcodes.php:247
+msgid ""
+"Normally calendar starts from the current week. If you want to force it to "
+"start from a certain date, enter that date here. Most date formats are "
+"supported, but YYYY-MM-DD is recommended. Notes: 1) This value will also "
+"affect other subsequent calendars on the same page. 2) Date value will not "
+"change starting day of week. It is sufficient to enter a date inside the "
+"week. Default: \"0\" (Current week)"
+msgstr ""
+
+#: includes/class_app_shortcodes.php:315 includes/class_app_shortcodes.php:318
+#: includes/class_app_shortcodes.php:464 includes/class_app_shortcodes.php:467
+#: includes/class_app_shortcodes.php:1384
+msgid "Login"
+msgstr ""
+
+#: includes/class_app_shortcodes.php:337
+msgid ""
+"Creates a weekly table whose cells are clickable to apply for an appointment."
+msgstr ""
+
+#: includes/class_app_shortcodes.php:349
+msgid "<h3>Our schedule for START</h3>"
+msgstr ""
+
+#: includes/class_app_shortcodes.php:351
+msgid "Our schedule for START"
+msgstr ""
+
+#: includes/class_app_shortcodes.php:354 includes/class_app_shortcodes.php:356
+msgid "Click a free day to apply for an appointment."
+msgstr ""
+
+#: includes/class_app_shortcodes.php:385
+msgid ""
+"Number of months to add to the schedule to use for preceding months' "
+"schedules. Enter 1 for next month, 2 for the other month, so on. Default: "
+"\"0\" (Current month)"
+msgstr ""
+
+#: includes/class_app_shortcodes.php:393
+msgid ""
+"Normally calendar starts from the current month. If you want to force it to "
+"start from a certain date, enter that date here. Most date formats are "
+"supported, but YYYY-MM-DD is recommended. Notes: 1) This value will also "
+"affect other subsequent calendars on the same page. 2) It is sufficient to "
+"enter a date inside the month. Default: \"0\" (Current month)"
+msgstr ""
+
+#: includes/class_app_shortcodes.php:486
+msgid ""
+"Creates a monthly calendar plus time tables whose free time slots are "
+"clickable to apply for an appointment."
+msgstr ""
+
+#: includes/class_app_shortcodes.php:500
+msgid ""
+"Number of weeks or months that selected time will increase or decrease with "
+"each next or previous link click. You may consider entering 4 if you have 4 "
+"schedule tables on the page."
+msgstr ""
+
+#: includes/class_app_shortcodes.php:505
+msgid ""
+"If entered 1, step parameter will mean month, otherwise week. In short, "
+"enter 1 for monthly schedule."
+msgstr ""
+
+#: includes/class_app_shortcodes.php:510
+msgid ""
+"This is only required if this shortcode resides above any schedule "
+"shortcodes. Otherwise it will follow date settings of the schedule "
+"shortcodes. Default: \"0\" (Current week or month)"
+msgstr ""
+
+#: includes/class_app_shortcodes.php:517
+msgid ""
+"Inserts pagination codes (previous, next week or month links) and Legend "
+"area."
+msgstr ""
+
+#: includes/class_app_shortcodes.php:565
+msgid "Next Week"
+msgstr ""
+
+#: includes/class_app_shortcodes.php:566
+msgid "Previous Week"
+msgstr ""
+
+#: includes/class_app_shortcodes.php:573
+msgid "Next Month"
+msgstr ""
+
+#: includes/class_app_shortcodes.php:574
+msgid "Previous Month"
+msgstr ""
+
+#: includes/class_app_shortcodes.php:603
+msgid "<h3>All Appointments</h3>"
+msgstr ""
+
+#: includes/class_app_shortcodes.php:604 includes/class_app_shortcodes.php:745
+msgid "Title text."
+msgstr ""
+
+#: includes/class_app_shortcodes.php:605
+msgid "All Appointments"
+msgstr ""
+
+#: includes/class_app_shortcodes.php:609 includes/class_app_shortcodes.php:750
+msgid ""
+"Which status(es) will be included. Possible values: paid, confirmed, "
+"completed, pending, removed, reserved or combinations of them separated with "
+"comma."
+msgstr ""
+
+#: includes/class_app_shortcodes.php:615
+msgid ""
+"Sort order of the appointments. Possible values: ID, start. Optionally DESC "
+"(descending) can be used, e.g. \"start DESC\" will reverse the order. "
+"Default: \"start\". Note: This is the sort order as page loads. Table can be "
+"dynamically sorted by any field from front end (Some date formats may not be "
+"sorted correctly)."
+msgstr ""
+
+#: includes/class_app_shortcodes.php:625
+msgid "Inserts a table that displays all upcoming appointments."
+msgstr ""
+
+#: includes/class_app_shortcodes.php:656 includes/class_app_shortcodes.php:865
+msgid "Service"
+msgstr ""
+
+#: includes/class_app_shortcodes.php:657 includes/class_app_shortcodes.php:811
+msgid "Provider"
+msgstr ""
+
+#: includes/class_app_shortcodes.php:659 includes/class_app_shortcodes.php:867
+msgid "Date/time"
+msgstr ""
+
+#: includes/class_app_shortcodes.php:694 includes/class_app_shortcodes.php:948
+msgid "No appointments"
+msgstr ""
+
+#: includes/class_app_shortcodes.php:735
+msgid ""
+"Enter 1 if this appointment list belongs to a service provider. Default: "
+"\"0\" (client)"
+msgstr ""
+
+#: includes/class_app_shortcodes.php:740
+msgid ""
+"Enter the user ID of the provider whose list will be displayed. If ommitted, "
+"current service provider will be displayed. Default: \"0\" (current service "
+"provider)"
+msgstr ""
+
+#: includes/class_app_shortcodes.php:744
+msgid "<h3>My Appointments</h3>"
+msgstr ""
+
+#: includes/class_app_shortcodes.php:746
+msgid "My Appointments"
+msgstr ""
+
+#: includes/class_app_shortcodes.php:756
+msgid ""
+"Enter 0 to disable Google Calendar button by which clients can add "
+"appointments to their Google Calendar after booking the appointment. "
+"Default: \"1\" (enabled - provided that \"Add Google Calendar Button\" "
+"setting is set as Yes)"
+msgstr ""
+
+#: includes/class_app_shortcodes.php:761
+msgid ""
+"Sort order of the appointments. Possible values: ID, start. Optionally DESC "
+"(descending) can be used, e.g. \"start DESC\" will reverse the order. "
+"Default: \"ID\". Note: This is the sort order as page loads. Table can be "
+"dynamically sorted by any field from front end (Some date formats may not be "
+"sorted correctly)."
+msgstr ""
+
+#: includes/class_app_shortcodes.php:766
+msgid ""
+"Enter 1 if you want to allow cancellation of appointments by the client "
+"using this table. \"Allow client cancel own appointments\" setting must also "
+"be set as Yes. Default: \"0\" (Cancellation is not allowed)."
+msgstr ""
+
+#: includes/class_app_shortcodes.php:777
+msgid ""
+"Inserts a table where client or service provider can see his upcoming "
+"appointments."
+msgstr ""
+
+#: includes/class_app_shortcodes.php:872
+msgid "Confirm"
+msgstr ""
+
+#: includes/class_app_shortcodes.php:876
+#: includes/class_app_shortcodes.php:1667
+#: includes/addons/app-locations-location_support.php:75
+#: includes/support/class_app_tutorial.php:215
+msgid "Cancel"
+msgstr ""
+
+#: includes/class_app_shortcodes.php:936
+msgid "Click to submit this appointment to your Google Calendar account"
+msgstr ""
+
+#: includes/class_app_shortcodes.php:956
+msgid "Submit Confirm"
+msgstr ""
+
+#: includes/class_app_shortcodes.php:989
+msgid "Are you sure to cancel the selected appointment?"
+msgstr ""
+
+#: includes/class_app_shortcodes.php:1003
+msgid "Selected appointment cancelled."
+msgstr ""
+
+#: includes/class_app_shortcodes.php:1009
+msgid "A connection error occurred."
+msgstr ""
+
+#: includes/class_app_shortcodes.php:1030
+#: includes/class_app_shortcodes.php:1032
+msgid "Please select a service:"
+msgstr ""
+
+#: includes/class_app_shortcodes.php:1031
+#: includes/class_app_shortcodes.php:1196
+msgid "Text above the select menu. Default: \"Please select a service\""
+msgstr ""
+
+#: includes/class_app_shortcodes.php:1035
+#: includes/class_app_shortcodes.php:1037
+#: includes/class_app_shortcodes.php:1200
+#: includes/class_app_shortcodes.php:1202
+msgid "Show available times"
+msgstr ""
+
+#: includes/class_app_shortcodes.php:1036
+#: includes/class_app_shortcodes.php:1201
+msgid ""
+"Button text to show the results for the selected. Default: \"Show available "
+"times\""
+msgstr ""
+
+#: includes/class_app_shortcodes.php:1041
+msgid ""
+"WSelects which part of the description page will be displayed under the "
+"dropdown menu when a service is selected . Selectable values are \"none\", "
+"\"excerpt\", \"content\". Default: \"excerpt\""
+msgstr ""
+
+#: includes/class_app_shortcodes.php:1047
+#: includes/class_app_shortcodes.php:1212
+msgid ""
+"Inserts the post thumbnail if page has a featured image. Selectable values "
+"are \"none\", \"thumbnail\", \"medium\", \"full\" or a 2 numbers separated "
+"by comma representing width and height in pixels, e.g. 32,32. Default: "
+"\"96,96\""
+msgstr ""
+
+#: includes/class_app_shortcodes.php:1052
+#: includes/class_app_shortcodes.php:1217
+msgid "css class that will be applied to the thumbnail. Default: \"alignleft\""
+msgstr ""
+
+#: includes/class_app_shortcodes.php:1057
+#: includes/class_app_shortcodes.php:1222
+msgid ""
+"If set as 1, Show button will not be displayed and page will be "
+"automatically refreshed as client changes selection. Note: Client cannot "
+"browse through the selections and thus check descriptions on the fly "
+"(without the page is refreshed). Default: \"0\" (disabled)"
+msgstr ""
+
+#: includes/class_app_shortcodes.php:1062
+msgid ""
+"Sort order of the services. Possible values: ID, name, duration, price. "
+"Optionally DESC (descending) can be used, e.g. \"name DESC\" will reverse "
+"the order. Default: \"ID\""
+msgstr ""
+
+#: includes/class_app_shortcodes.php:1067
+msgid ""
+"In some cases, you may want to display services which are given only by a "
+"certain provider. In that case enter provider ID here. Note: order_by "
+"parameter will not work in combination with this one. Default: \"0\" (all "
+"defined services). Note: Multiple selections are not allowed."
+msgstr ""
+
+#: includes/class_app_shortcodes.php:1076
+msgid "Creates a dropdown menu of available services."
+msgstr ""
+
+#: includes/class_app_shortcodes.php:1195
+#: includes/class_app_shortcodes.php:1197
+msgid "Please choose a service provider:"
+msgstr ""
+
+#: includes/class_app_shortcodes.php:1206
+msgid ""
+"Selects which part of the bio page will be displayed under the dropdown menu "
+"when a service provider is selected . Selectable values are \"none\", "
+"\"excerpt\", \"content\". Default: \"excerpt\""
+msgstr ""
+
+#: includes/class_app_shortcodes.php:1227
+msgid ""
+"Sort order of the service providers. Possible values: ID, name. Optionally "
+"DESC (descending) can be used, e.g. \"name DESC\" will reverse the order. "
+"Default: \"ID\""
+msgstr ""
+
+#: includes/class_app_shortcodes.php:1232
+msgid ""
+"In some cases, you may want to force to display providers who give only a "
+"certain service. In that case enter service ID here. Default: \"0\" (list is "
+"determined by services dropdown). Note: Multiple selections are not allowed."
+msgstr ""
+
+#: includes/class_app_shortcodes.php:1241
+msgid "Creates a dropdown menu of available service providers."
+msgstr ""
+
+#: includes/class_app_shortcodes.php:1280
+msgid "No preference"
+msgstr ""
+
+#: includes/class_app_shortcodes.php:1359
+#: includes/class_app_shortcodes.php:1361
+msgid "Please click here to login:"
+msgstr ""
+
+#: includes/class_app_shortcodes.php:1360
+msgid ""
+"Text above the login buttons, proceeded by a login link. Default: \"Please "
+"click here to login:\""
+msgstr ""
+
+#: includes/class_app_shortcodes.php:1364
+#: includes/class_app_shortcodes.php:1366
+msgid ""
+"Login required to make an appointment. Now you will be redirected to login "
+"page."
+msgstr ""
+
+#: includes/class_app_shortcodes.php:1365
+msgid ""
+"Javascript text if front end login is not set and user is redirected to "
+"login page"
+msgstr ""
+
+#: includes/class_app_shortcodes.php:1372
+msgid "Inserts front end login buttons for Facebook, Twitter and WordPress."
+msgstr ""
+
+#: includes/class_app_shortcodes.php:1416
+#: includes/class_app_shortcodes.php:1418
+msgid "Payment for SERVICE"
+msgstr ""
+
+#: includes/class_app_shortcodes.php:1417
+msgid ""
+"Item name that will be seen on Paypal. Default: \"Payment for SERVICE\" if "
+"deposit is not asked, \"Deposit for SERVICE\" if deposit is asked"
+msgstr ""
+
+#: includes/class_app_shortcodes.php:1421
+#: includes/class_app_shortcodes.php:1423
+msgid "Please confirm PRICE CURRENCY payment for SERVICE"
+msgstr ""
+
+#: includes/class_app_shortcodes.php:1422
+msgid ""
+"Text that will be displayed on Paypal button. Default: \"Please confirm "
+"PRICE CURRENCY payment for SERVICE\""
+msgstr ""
+
+#: includes/class_app_shortcodes.php:1430
+msgid "Inserts PayPal Pay button and form."
+msgstr ""
+
+#: includes/class_app_shortcodes.php:1432
+msgid ""
+"For the shortcode parameters, you can use SERVICE, PRICE, CURRENCY "
+"placeholders which will be replaced by their real values."
+msgstr ""
+
+#: includes/class_app_shortcodes.php:1443
+msgid "Deposit for SERVICE"
+msgstr ""
+
+#: includes/class_app_shortcodes.php:1504
+msgid "<h3>Please check the appointment details below and confirm:</h3>"
+msgstr ""
+
+#: includes/class_app_shortcodes.php:1505
+msgid ""
+"Text above fields. Default: \"Please check the appointment details below and "
+"confirm:\""
+msgstr ""
+
+#: includes/class_app_shortcodes.php:1506
+msgid "Please check the appointment details below and confirm:"
+msgstr ""
+
+#: includes/class_app_shortcodes.php:1509
+#: includes/class_app_shortcodes.php:1511
+msgid "Please click here to confirm this appointment"
+msgstr ""
+
+#: includes/class_app_shortcodes.php:1510
+msgid ""
+"Text of the button that asks client to confirm the appointment. Default: "
+"\"Please click here to confirm this appointment\""
+msgstr ""
+
+#: includes/class_app_shortcodes.php:1514
+#: includes/class_app_shortcodes.php:1516
+msgid "We have received your appointment. Thanks!"
+msgstr ""
+
+#: includes/class_app_shortcodes.php:1515
+msgid ""
+"Javascript text that will be displayed after receiving of the appointment. "
+"This will only be displayed if you do not require payment. Default: \"We "
+"have received your appointment. Thanks!\""
+msgstr ""
+
+#: includes/class_app_shortcodes.php:1519
+#: includes/class_app_shortcodes.php:1521
+msgid "Please fill in the requested field"
+msgstr ""
+
+#: includes/class_app_shortcodes.php:1520
+msgid ""
+" Javascript text displayed if client does not fill a required field. "
+"Default: \"Please fill in the requested field\""
+msgstr ""
+
+#: includes/class_app_shortcodes.php:1524
+#: includes/class_app_shortcodes.php:1526
+msgid "Your name:"
+msgstr ""
+
+#: includes/class_app_shortcodes.php:1525
+#: includes/class_app_shortcodes.php:1530
+#: includes/class_app_shortcodes.php:1535
+#: includes/class_app_shortcodes.php:1540
+#: includes/class_app_shortcodes.php:1545
+#: includes/class_app_shortcodes.php:1550
+msgid "Descriptive title of the field."
+msgstr ""
+
+#: includes/class_app_shortcodes.php:1529
+#: includes/class_app_shortcodes.php:1531
+msgid "Your email:"
+msgstr ""
+
+#: includes/class_app_shortcodes.php:1534
+#: includes/class_app_shortcodes.php:1536
+msgid "Your phone:"
+msgstr ""
+
+#: includes/class_app_shortcodes.php:1539
+#: includes/class_app_shortcodes.php:1541
+msgid "Your address:"
+msgstr ""
+
+#: includes/class_app_shortcodes.php:1544
+#: includes/class_app_shortcodes.php:1546
+msgid "City:"
+msgstr ""
+
+#: includes/class_app_shortcodes.php:1549
+#: includes/class_app_shortcodes.php:1551
+msgid "Your notes:"
+msgstr ""
+
+#: includes/class_app_shortcodes.php:1554
+#: includes/class_app_shortcodes.php:1556
+msgid "Access Google Calendar and submit appointment"
+msgstr ""
+
+#: includes/class_app_shortcodes.php:1555
+msgid ""
+"Text that will be displayed beside Google Calendar checkbox. Default: \"Open "
+"Google Calendar and submit appointment\""
+msgstr ""
+
+#: includes/class_app_shortcodes.php:1563
+msgid ""
+"Inserts a form which displays the details of the selected appointment and "
+"has fields which should be filled by the client."
+msgstr ""
+
+#: includes/class_app_shortcodes.php:1565
+msgid "<b>This shortcode is always required to complete an appointment.</b>"
+msgstr ""
+
+#: includes/class_app_shortcodes.php:1822
+msgid "A connection problem occurred. Please try again."
+msgstr ""
+
+#: includes/default_filters.php:10 includes/default_filters.php:12
+msgid "More Info"
+msgstr ""
+
+#: includes/default_filters.php:11
+msgid "Less Info"
+msgstr ""
+
+#: includes/pointer-tutorials.php:417
+msgid "Next &raquo;"
+msgstr ""
+
+#: includes/pointer-tutorials.php:429 includes/pointer-tutorials.php:448
+msgid "Dismiss"
+msgstr ""
+
+#: includes/pointer-tutorials.php:430 includes/pointer-tutorials.php:449
+#, php-format
+msgid "Dismiss %s"
+msgstr ""
+
+#: includes/pointer-tutorials.php:436
+msgid "&laquo; Previous"
+msgstr ""
+
+#: includes/pointer-tutorials.php:488
+#, php-format
+msgid "%s: Step %d of %d"
+msgstr ""
+
+#: includes/sample-appointments-page.php:34
+msgid "Pages:"
+msgstr ""
+
+#: includes/sample-appointments-page.php:38
+#: includes/addons/app-locations-location_support.php:116
+msgid "Edit"
+msgstr ""
+
+#: includes/widgets.php:32
+msgid "Title:"
+msgstr ""
+
+#: includes/widgets.php:48
+msgid "List of services and links to their description pages"
+msgstr ""
+
+#: includes/widgets.php:49
+msgid "Appointments+ Services"
+msgstr ""
+
+#: includes/widgets.php:78
+msgid "Number of services to show:"
+msgstr ""
+
+#: includes/widgets.php:103
+msgid "List of service providers and links to their bio pages"
+msgstr ""
+
+#: includes/widgets.php:104
+msgid "Appointments+ Service Providers"
+msgstr ""
+
+#: includes/widgets.php:134
+msgid "Number of service providers to show:"
+msgstr ""
+
+#: includes/widgets.php:163
+msgid ""
+"A monthly calendar that redirects user to the selected appointment page when "
+"a free day is clicked. Use several instances to show several months and set "
+"\"Months to add to current month\" as required, e.g. 0 for the first "
+"instance, 1 for the second one, and so on."
+msgstr ""
+
+#: includes/widgets.php:164
+msgid "Appointments+ Monthly Calendar"
+msgstr ""
+
+#: includes/widgets.php:231
+msgid "Appointment page:"
+msgstr ""
+
+#: includes/widgets.php:238
+msgid "Months to add to current month:"
+msgstr ""
+
+#: includes/wpmudev-dash-notification.php:57
+#, php-format
+msgid ""
+"Easily get updates, support, and one-click WPMU DEV plugin/theme "
+"installations right from in your dashboard - <strong><a href=\"%s\" title="
+"\"Install Now &raquo;\">install the free WPMU DEV Dashboard plugin</a></"
+"strong>. &nbsp;&nbsp;&nbsp;<small><a href=\"http://premium.wpmudev.org/wpmu-"
+"dev/update-notifications-plugin-information/\">(find out more)</a></small>"
+msgstr ""
+
+#: includes/wpmudev-dash-notification.php:61
+#, php-format
+msgid ""
+"Updates, Support, Premium Plugins, Community - <strong><a href=\"%s\" title="
+"\"Activate Now &raquo;\">activate the WPMU DEV Dashboard plugin now</a></"
+"strong>."
+msgstr ""
+
+#: includes/addons/app-admin-admin_permissions.php:54
+msgid "Appointments role access"
+msgstr ""
+
+#: includes/addons/app-admin-admin_permissions.php:65
+#: includes/addons/app-post_types-worker_names.php:116
+msgid "Default"
+msgstr ""
+
+#: includes/addons/app-locations-location_support.php:51
+#: includes/addons/app-locations-location_support.php:218
+#: includes/addons/app-locations-location_support.php:241
+msgid "Location"
+msgstr ""
+
+#: includes/addons/app-locations-location_support.php:68
+msgid "Address"
+msgstr ""
+
+#: includes/addons/app-locations-location_support.php:71
+msgid "Add"
+msgstr ""
+
+#: includes/addons/app-locations-location_support.php:72
+msgid "Save"
+msgstr ""
+
+#: includes/addons/app-locations-location_support.php:73
+msgid "Create a New Location"
+msgstr ""
+
+#: includes/addons/app-locations-location_support.php:74
+msgid "Edit Location"
+msgstr ""
+
+#: includes/addons/app-locations-location_support.php:90
+msgid "Locations"
+msgstr ""
+
+#: includes/addons/app-locations-location_support.php:103
+msgid "Add location"
+msgstr ""
+
+#: includes/addons/app-locations-location_support.php:108
+msgid "Locations List"
+msgstr ""
+
+#: includes/addons/app-locations-location_support.php:117
+msgid "Delete"
+msgstr ""
+
+#: includes/addons/app-locations-location_support.php:126
+msgid "Save locations"
+msgstr ""
+
+#: includes/addons/app-locations-location_support.php:129
+msgid "Locations Settings"
+msgstr ""
+
+#: includes/addons/app-locations-location_support.php:133
+msgid "Show my appointments location"
+msgstr ""
+
+#: includes/addons/app-locations-location_support.php:137
+#: includes/addons/app-locations-location_support.php:149
+msgid "Automatic, after service"
+msgstr ""
+
+#: includes/addons/app-locations-location_support.php:138
+#: includes/addons/app-locations-location_support.php:150
+msgid "Automatic, after provider"
+msgstr ""
+
+#: includes/addons/app-locations-location_support.php:139
+#: includes/addons/app-locations-location_support.php:152
+msgid "Automatic, after date/time"
+msgstr ""
+
+#: includes/addons/app-locations-location_support.php:140
+#: includes/addons/app-locations-location_support.php:153
+msgid "Automatic, after status"
+msgstr ""
+
+#: includes/addons/app-locations-location_support.php:145
+msgid "Show all appointments location"
+msgstr ""
+
+#: includes/addons/app-locations-location_support.php:151
+msgid "Automatic, after client"
+msgstr ""
+
+#: includes/addons/app-locations-location_support.php:164
+#: includes/support/class_app_tutorial.php:83
+#: includes/support/class_app_tutorial.php:98
+#: includes/support/class_app_tutorial.php:123
+msgid "Save settings"
+msgstr ""
+
+#: includes/addons/app-locations-locations_on_google_maps.php:24
+msgid "Show Appointments for this user ID"
+msgstr ""
+
+#: includes/addons/app-locations-locations_on_google_maps.php:84
+msgid "Renders a map of appointments"
+msgstr ""
+
+#: includes/addons/app-locations-locations_on_google_maps.php:125
+msgid ""
+"You'll need Locations add-on activated for Google Maps Locations integration "
+"add-on to work"
+msgstr ""
+
+#: includes/addons/app-locations-locations_on_google_maps.php:130
+msgid ""
+"You'll need Google Maps plugin installed and activated for Google Maps "
+"Locations integration add-on to work"
+msgstr ""
+
+#: includes/addons/app-locations-locations_on_google_maps.php:149
+msgid "ROADMAP"
+msgstr ""
+
+#: includes/addons/app-locations-locations_on_google_maps.php:150
+msgid "SATELLITE"
+msgstr ""
+
+#: includes/addons/app-locations-locations_on_google_maps.php:151
+msgid "HYBRID"
+msgstr ""
+
+#: includes/addons/app-locations-locations_on_google_maps.php:152
+msgid "TERRAIN"
+msgstr ""
+
+#: includes/addons/app-locations-locations_on_google_maps.php:155
+msgid "Metric"
+msgstr ""
+
+#: includes/addons/app-locations-locations_on_google_maps.php:156
+msgid "Imperial"
+msgstr ""
+
+#: includes/addons/app-locations-locations_on_google_maps.php:160
+msgid "Google Maps Settings"
+msgstr ""
+
+#: includes/addons/app-locations-locations_on_google_maps.php:162
+msgid ""
+"Any setting you leave empty here will be inherited from the default Google "
+"Maps plugin settings."
+msgstr ""
+
+#: includes/addons/app-locations-locations_on_google_maps.php:165
+msgid "Map size"
+msgstr ""
+
+#: includes/addons/app-locations-locations_on_google_maps.php:168
+msgid "Width:"
+msgstr ""
+
+#: includes/addons/app-locations-locations_on_google_maps.php:173
+msgid "Height:"
+msgstr ""
+
+#: includes/addons/app-locations-locations_on_google_maps.php:179
+msgid "Map appearance"
+msgstr ""
+
+#: includes/addons/app-locations-locations_on_google_maps.php:182
+msgid "Zoom:"
+msgstr ""
+
+#: includes/addons/app-locations-locations_on_google_maps.php:184
+msgid "Numeric value"
+msgstr ""
+
+#: includes/addons/app-locations-locations_on_google_maps.php:188
+msgid "Type:"
+msgstr ""
+
+#: includes/addons/app-locations-locations_on_google_maps.php:200
+msgid "Units:"
+msgstr ""
+
+#: includes/addons/app-locations-locations_on_google_maps.php:214
+msgid "Show images"
+msgstr ""
+
+#: includes/addons/app-locations-locations_on_google_maps.php:219
+msgid "Automatic map overlays"
+msgstr ""
+
+#: includes/addons/app-locations-locations_on_google_maps.php:221
+msgid "Automatically insert maps..."
+msgstr ""
+
+#: includes/addons/app-locations-locations_on_google_maps.php:225
+msgid "After My Appointments shortcode output"
+msgstr ""
+
+#: includes/addons/app-locations-locations_on_google_maps.php:231
+msgid "After All Appointments shortcode output"
+msgstr ""
+
+#: includes/addons/app-locations-service_locations.php:47
+msgid ""
+"You'll need Locations add-on activated for Service Locations integration add-"
+"on to work"
+msgstr ""
+
+#: includes/addons/app-locations-service_locations.php:85
+msgid "Service Locations Settings"
+msgstr ""
+
+#: includes/addons/app-locations-service_locations.php:89
+msgid "Show service location"
+msgstr ""
+
+#: includes/addons/app-locations-service_locations.php:92
+#: includes/addons/app-locations-worker_locations.php:92
+msgid "I will add location info manually, using shortcode"
+msgstr ""
+
+#: includes/addons/app-locations-service_locations.php:93
+msgid "Automatic, before service description"
+msgstr ""
+
+#: includes/addons/app-locations-service_locations.php:94
+msgid "Automatic, after service description"
+msgstr ""
+
+#: includes/addons/app-locations-service_locations.php:96
+msgid ""
+"You can use the shortcode like this: <code>[app_service_location]</code>"
+msgstr ""
+
+#: includes/addons/app-locations-service_locations.php:139
+#: includes/addons/app-locations-worker_locations.php:139
+msgid "Location:"
+msgstr ""
+
+#: includes/addons/app-locations-worker_locations.php:47
+msgid ""
+"You'll need Locations add-on activated for Worker Locations integration add-"
+"on to work"
+msgstr ""
+
+#: includes/addons/app-locations-worker_locations.php:85
+msgid "Worker Locations Settings"
+msgstr ""
+
+#: includes/addons/app-locations-worker_locations.php:89
+msgid "Show worker location"
+msgstr ""
+
+#: includes/addons/app-locations-worker_locations.php:93
+msgid "Automatic, before worker description"
+msgstr ""
+
+#: includes/addons/app-locations-worker_locations.php:94
+msgid "Automatic, after worker description"
+msgstr ""
+
+#: includes/addons/app-locations-worker_locations.php:96
+msgid "You can use the shortcode like this: <code>[app_worker_location]</code>"
+msgstr ""
+
+#: includes/addons/app-post_types-biography.php:57
+msgid "Biography post type"
+msgstr ""
+
+#: includes/addons/app-post_types-biography.php:66
+msgid ""
+"This is the post type that will be used as biographies for your service "
+"providers."
+msgstr ""
+
+#: includes/addons/app-post_types-service_description.php:57
+msgid "Service Description post type"
+msgstr ""
+
+#: includes/addons/app-post_types-service_description.php:66
+msgid ""
+"This is the post type that will be used as descriptions for your services."
+msgstr ""
+
+#: includes/addons/app-post_types-worker_names.php:102
+msgid "As set in Appointments+ settings in profile (default)"
+msgstr ""
+
+#: includes/addons/app-post_types-worker_names.php:103
+msgid "User display name"
+msgstr ""
+
+#: includes/addons/app-post_types-worker_names.php:104
+msgid "Nickname"
+msgstr ""
+
+#: includes/addons/app-post_types-worker_names.php:105
+msgid "First name, followed by last name, space-separated"
+msgstr ""
+
+#: includes/addons/app-post_types-worker_names.php:106
+msgid "First name, followed by last name, comma-separated"
+msgstr ""
+
+#: includes/addons/app-post_types-worker_names.php:107
+msgid "Last name, followed by first name, space-separated"
+msgstr ""
+
+#: includes/addons/app-post_types-worker_names.php:108
+msgid "Last name, followed by first name, comma-separated"
+msgstr ""
+
+#: includes/addons/app-post_types-worker_names.php:114
+msgid "Worker display names"
+msgstr ""
+
+#: includes/addons/app-post_types-worker_names.php:125
+msgid ""
+"This is the name format that will be used by default for your service "
+"providers."
+msgstr ""
+
+#: includes/addons/app-post_types-worker_names.php:128
+msgid "Fallback"
+msgstr ""
+
+#: includes/addons/app-post_types-worker_names.php:137
+msgid ""
+"This is the name format that will be used as fallback, in case the default "
+"value is not set."
+msgstr ""
+
+#: includes/addons/app-users-limit_services_login.php:60
+msgid "Show login buttons"
+msgstr ""
+
+#: includes/gcal/io/Google_CurlIO.php:119
+msgid ""
+"Either 1) Connection error to Google server. You may neglect this message if "
+"it is happening sporadically, or 2) SSL certificate problem, verify that the "
+"CA cert is OK."
+msgstr ""
+
+#: includes/support/app-faq.php:23
+msgid "<b>How can I restart the tutorial?</b>"
+msgstr ""
+
+#: includes/support/app-faq.php:25
+msgid "To restart tutorial about settings click here:"
+msgstr ""
+
+#: includes/support/app-faq.php:29
+msgid "Settings Tutorial Restart"
+msgstr ""
+
+#: includes/support/app-faq.php:31
+msgid "To restart tutorial about entering and editing Appointments click here:"
+msgstr ""
+
+#: includes/support/app-faq.php:35
+msgid "Appointments Creation and Editing Tutorial Restart"
+msgstr ""
+
+#: includes/support/app-faq.php:40
+msgid "<b>What is the importance of Time Base and how should I set it?</b>"
+msgstr ""
+
+#: includes/support/app-faq.php:42
+msgid ""
+"<i>Time Base</i> is the most important parameter of Appointments+. It is the "
+"minimum time that you can select for your appointments. If you set it too "
+"high then you may not be possible to optimize your appointments. If you set "
+"it too low, your schedule will be too crowded and you may have difficulty in "
+"managing your appointments. You should enter here the duration of the "
+"shortest service you are providing. Please also note that service durations "
+"can only be multiples of the time base. So if you need 30 and 45 minutes "
+"services, you should select 15 minutes as the time base."
+msgstr ""
+
+#: includes/support/app-faq.php:48
+msgid ""
+"<b>I don't see the time base that I need. For example I need 240 minutes "
+"appointments. How can I do that?</b>"
+msgstr ""
+
+#: includes/support/app-faq.php:50
+msgid ""
+"You can add one more time base using <i>Additional time base</i> setting. "
+"You must select this setting in <i>time base</i> setting to be effective."
+msgstr ""
+
+#: includes/support/app-faq.php:56
+msgid "<b>What is the complete process for an appointment?</b>"
+msgstr ""
+
+#: includes/support/app-faq.php:58
+msgid ""
+"With the widest settings, client will do the followings on the front page:"
+msgstr ""
+
+#: includes/support/app-faq.php:61
+msgid "Select a service"
+msgstr ""
+
+#: includes/support/app-faq.php:64
+msgid "Select a service provider"
+msgstr ""
+
+#: includes/support/app-faq.php:67
+msgid "Select a free time on the schedule"
+msgstr ""
+
+#: includes/support/app-faq.php:70
+msgid "Login (if required)"
+msgstr ""
+
+#: includes/support/app-faq.php:73
+msgid ""
+"Enter the required fields (name, email, phone, address, city) and confirm "
+"the selected appointment"
+msgstr ""
+
+#: includes/support/app-faq.php:76
+msgid "Click Paypal payment button (if required)"
+msgstr ""
+
+#: includes/support/app-faq.php:79
+msgid "Redirected to a Thank You page after Paypal payment"
+msgstr ""
+
+#: includes/support/app-faq.php:86
+msgid "<b>Is it necessary to have at least one service?</b>"
+msgstr ""
+
+#: includes/support/app-faq.php:88
+msgid ""
+"Yes. Appointments+ requires at least one service to be defined. Please note "
+"that a default service should have been already installed during "
+"installation. If you delete it, and no other service remains, then you will "
+"get a warning message. In this case plugin may not function properly."
+msgstr ""
+
+#: includes/support/app-faq.php:93
+msgid "<b>Is it necessary to define service providers?</b>"
+msgstr ""
+
+#: includes/support/app-faq.php:95
+msgid ""
+"No. You may as well be working by yourself, doing your own business. Plugin "
+"will work properly without any service provider, i.e worker, defined. In "
+"this case Appointments+ assumes that there is ONE service provider working, "
+"giving all the services."
+msgstr ""
+
+#: includes/support/app-faq.php:100
+msgid ""
+"<b>Is it necessary to use Services and Service Providers shortcodes?</b>"
+msgstr ""
+
+#: includes/support/app-faq.php:102
+msgid ""
+"No. If you do not use these shortcodes then your client will not be able to "
+"select a service and Appointments+ will pick the service with the smallest "
+"ID or the one selected with \"service\" parameter of the schedule shortcode. "
+"We have already noted that a service provider definition is only optional."
+msgstr ""
+
+#: includes/support/app-faq.php:107
+msgid "<b>Does Appointments+ provide some widgets?</b>"
+msgstr ""
+
+#: includes/support/app-faq.php:109
+msgid ""
+"Yes. Appointments+ has Services and Service Providers widgets which provides "
+"a list of service or service providers with links to their description/bio "
+"pages and a Monthly Calendar widget that redirects user to the selected "
+"appointment page when a free day is clicked. Note: Service and service "
+"provider items not having assigned description/bio pages are not displayed."
+msgstr ""
+
+#: includes/support/app-faq.php:114
+msgid "<b>Can I use the shortcodes in any page as I wish?</b>"
+msgstr ""
+
+#: includes/support/app-faq.php:116
+msgid ""
+"Some shortcodes have only meaning if they are used in combination with some "
+"others. For example the Services shortcode will not have a function unless "
+"you have a Schedule on the same page. They are defined as separate "
+"shortcodes so that you can customize them on your pages. Except for My "
+"Appointments and Schedule shortcodes, only one instance of a shortcode is "
+"allowed on the same page."
+msgstr ""
+
+#: includes/support/app-faq.php:121
+msgid ""
+"<b>Can I have schedules showing more than two weeks or months on the same "
+"page?</b>"
+msgstr ""
+
+#: includes/support/app-faq.php:123
+#, php-format
+msgid ""
+"Yes. Use \"add\" parameter of schedule shortcode to add additional "
+"schedules. There is no limit for the number of schedules that you can use on "
+"the same page. See %s tab for details."
+msgstr ""
+
+#: includes/support/app-faq.php:123
+msgid "Shortcodes"
+msgstr ""
+
+#: includes/support/app-faq.php:128
+msgid ""
+"<b>Does the client need to be registered to the website to apply for an "
+"appointment?</b>"
+msgstr ""
+
+#: includes/support/app-faq.php:130
+msgid ""
+"You can set whether this is required with <i>Login Required</i> setting. You "
+"can ask details (name, email, phone, address, city) about the client before "
+"accepting the appointment, thus you may not need user registrations. These "
+"data are saved in a cookie and autofilled when they apply for a new "
+"appointment, so your regular clients do not need to refill them."
+msgstr ""
+
+#: includes/support/app-faq.php:135
+msgid "<b>How are the appointments confirmed?</b>"
+msgstr ""
+
+#: includes/support/app-faq.php:137
+msgid ""
+"If you have selected <i>Payment Required</i> field as Yes, then an "
+"appointment is automatically confirmed after a succesful Paypal payment and "
+"confirmation of Paypal IPN. If you selected Payment Required as No, then "
+"confirmation can be done manually, or automatically depending on Auto "
+"Confirm setting."
+msgstr ""
+
+#: includes/support/app-faq.php:142
+msgid "<b>How can I manually confirm an appointment?</b>"
+msgstr ""
+
+#: includes/support/app-faq.php:144
+#, php-format
+msgid ""
+"Using the %s, find the appointment based on user name and change the status "
+"after you click <i>See Details and Edit</i> link. Note that this link will "
+"be visible only after you take the cursor over the record. Please also note "
+"that you can edit all the appointment data here."
+msgstr ""
+
+#: includes/support/app-faq.php:144 includes/support/app-faq.php:151
+#: includes/support/app-faq.php:218
+msgid "Appointments admin page"
+msgstr ""
+
+#: includes/support/app-faq.php:149
+msgid "<b>Can I enter a manual appointment from admin side?</b>"
+msgstr ""
+
+#: includes/support/app-faq.php:151
+#, php-format
+msgid ""
+"Yes. You may as well be having manual appointments, e.g. by phone. Just "
+"click <i>Add New</i> link on top of the %s and enter the fields and save the "
+"record. Please note that NO checks (Is that time frame free? Are we working "
+"that day? etc...) are done when you are entering a manual appointment. "
+"Consider entering or checking appointments from the front end to prevent "
+"mistakes."
+msgstr ""
+
+#: includes/support/app-faq.php:156
+msgid ""
+"<b>I don't want front end appointments, I want to enter them only manually "
+"from admin side. What should I do?</b>"
+msgstr ""
+
+#: includes/support/app-faq.php:158
+msgid ""
+"If you don't want your schedule to be seen either, then simply do not add "
+"Schedule shortcode in your pages, or set that page as \"private\" for admin "
+"use. But if you want your schedule to be seen publicly, then just use "
+"Schedule shortcode, but no other shortcodes else."
+msgstr ""
+
+#: includes/support/app-faq.php:163
+msgid ""
+"<b>I don't want my break times and holidays to be seen by the clients. How "
+"can I do that?</b>"
+msgstr ""
+
+#: includes/support/app-faq.php:165
+msgid ""
+"Select css background color for busy and not possible fields to be the same "
+"(for example white). Select <i>Show Legend</i> setting as No. Now, visitors "
+"can only see your free times and apply for those; they cannot distinguish if "
+"you are occupied or not working for the rest."
+msgstr ""
+
+#: includes/support/app-faq.php:171
+msgid ""
+"<b>How can I prevent a second appointment by a client until I confirm his "
+"first appointment?</b>"
+msgstr ""
+
+#: includes/support/app-faq.php:173
+#, php-format
+msgid ""
+"Enter a huge number, e.g. 10000000, in <i>Minimum time to pass for new "
+"appointment</i> field. Please note that this is not 100% safe and there is "
+"no safe solution against this unless you require payment to accept an "
+"appointment."
+msgstr ""
+
+#: includes/support/app-faq.php:179
+msgid ""
+"<b>I have several service providers (workers) and each of them has different "
+"working hours, break hours and holidays. Does Appointments+ support this?</b>"
+msgstr ""
+
+#: includes/support/app-faq.php:181
+msgid ""
+"Yes. For each and every service provider you can individually set working, "
+"break hours and exceptions (holidays and additional working days). To do so, "
+"use the <i>Working Hours</i> and <i>Exceptions</i> tabs and select the "
+"service provider you want to make the changes from the service provider "
+"dropdown menu, make necessary changes and save. Plase note that when a "
+"service provider is added, his working schedule is set to the business "
+"working schedule. Thus, you only need to edit the variations of his schedule."
+msgstr ""
+
+#: includes/support/app-faq.php:186
+msgid ""
+"<b>How can I set start day of the week and adjust date and time formats?</b>"
+msgstr ""
+
+#: includes/support/app-faq.php:188
+#, php-format
+msgid ""
+"Appointments+ follows Wordpress date and time settings. If you change them "
+"from %s page, plugin will automatically adapt them."
+msgstr ""
+
+#: includes/support/app-faq.php:188
+msgid "General Settings"
+msgstr ""
+
+#: includes/support/app-faq.php:193
+msgid "<b>What does service capacity mean? Can you give an example?</b>"
+msgstr ""
+
+#: includes/support/app-faq.php:195
+msgid ""
+"It is the capacity of a service (e.g. because of technical reasons) "
+"independent of number of service providers giving that service. Imagine a "
+"dental clinic with three dentists working, each having their examination "
+"rooms, but there is only one X-Ray unit. Then, X-Ray Service has a capacity "
+"1, and examination service has 3. Please note that you should only define "
+"capacity of X-Ray service 1 in this case. The other services whose capacity "
+"are left as zero will be automatically limited to the number of dentists "
+"giving that particular service. Because for those, limitation comes from the "
+"service providers, not from the service itself. Capacity field is for "
+"limiting the workforce, not for increasing it. See the FAQ in Advanced "
+"section to increase your available workforce and thus number of available "
+"appointments per time slot."
+msgstr ""
+
+#: includes/support/app-faq.php:200
+msgid ""
+"<b>I have defined several services and service providers. For a particular "
+"service, there is no provider assigned. What happens?</b>"
+msgstr ""
+
+#: includes/support/app-faq.php:202
+msgid ""
+"For that particular service, clients cannot apply for an appointment because "
+"there will be no free time slot. Just delete services you are not using."
+msgstr ""
+
+#: includes/support/app-faq.php:208
+msgid ""
+"<b>I am giving a service only on certain days of the week, different than my "
+"normal working days. Is it possible to set this in Appointments+?</b>"
+msgstr ""
+
+#: includes/support/app-faq.php:210
+msgid ""
+"Yes. Create a \"dummy\" service provider and assign that particular service "
+"only to it. Then set its working days as those days."
+msgstr ""
+
+#: includes/support/app-faq.php:216
+msgid "<b>How can I permanently delete appointment records?</b>"
+msgstr ""
+
+#: includes/support/app-faq.php:218
+#, php-format
+msgid ""
+"To avoid any mistakes, appointment records can only be deleted from Removed "
+"area of %s. First change the status of the appointment to \"removed\" and "
+"then delete it selecting the Removed area."
+msgstr ""
+
+#: includes/support/app-faq.php:224
+msgid ""
+"<b>What happens if a client was applying for an appointment but at the same "
+"time another client booked the same time slot?</b>"
+msgstr ""
+
+#: includes/support/app-faq.php:226
+msgid ""
+"Appointments+ checks the availability of the appointment twice: First when "
+"client clicks a free box and then when he clicks the confirmation button. If "
+"that time slot is taken by another client during these checks, he will be "
+"acknowledged that that time frame is not avaliable any more. All these "
+"checks are done in real time by ajax calls, so duplicate appointments are "
+"not possible."
+msgstr ""
+
+#: includes/support/app-faq.php:232
+msgid ""
+"<b>What does the Built-in Cache do? Can I still use other caching plugins?</"
+"b>"
+msgstr ""
+
+#: includes/support/app-faq.php:234
+msgid ""
+"Appointments+ comes with a built-in specific cache. It functions only on "
+"appointment pages and caches the content part of the page only. It is "
+"recommended to enable it especially if you have a high traffic appointment "
+"page. You can continue to use other general purpose caching plugins, namely "
+"W3T, WP Super Cache, Quick Cache. The other object or page caching plugins "
+"are not tested."
+msgstr ""
+
+#: includes/support/app-faq.php:240
+msgid ""
+"<b>I have just installed Appointments+ and nothing happens as I click a free "
+"time slot on the Make an Appointment page. What can be the problem?</b>"
+msgstr ""
+
+#: includes/support/app-faq.php:242
+msgid ""
+"If you have created the appointment page manually, check if you have added "
+"\"app_confirmation\" shortcode which is always required to complete an "
+"appointment. If this is not the case, you most likely have a javascript "
+"error on the page. This may be coming from a faulty theme or plugin. To "
+"confirm the javascript error, open the page using Google Chrome or Firefox "
+"and then press Ctrl+Shift+j. In the opening window if you see any warnings "
+"or errors, then switch to the default theme to locate the issue. If errors "
+"disappear, then you need to check and correct your theme files. If they "
+"don't disappear, then deactivate all your plugins and re-activate them one "
+"by one, starting from Appointments+ and check each time as you activate a "
+"plugin."
+msgstr ""
+
+#: includes/support/app-faq.php:248
+msgid "<b>How is the plugin supposed to work by the way?</b>"
+msgstr ""
+
+#: includes/support/app-faq.php:250
+#, php-format
+msgid "Please visit our %s."
+msgstr ""
+
+#: includes/support/app-faq.php:250
+msgid "Demo website"
+msgstr ""
+
+#: includes/support/app-faq.php:256
+msgid ""
+"<b>How does integration with Membership work? Are there any special "
+"considerations?</b>"
+msgstr ""
+
+#: includes/support/app-faq.php:258
+msgid ""
+"Membership member levels can be let exempt from advance payments/deposits. "
+"Also you can apply discounts for the selected membership levels. There are "
+"no special considerations: Appointments+ will be managing them automatically."
+msgstr ""
+
+#: includes/support/app-faq.php:265
+msgid ""
+"<b>How does integration with MarketPress work? Are there any special "
+"considerations?</b>"
+msgstr ""
+
+#: includes/support/app-faq.php:267
+msgid ""
+"If you select <i>Integrate with MarketPress</i> which is visible after "
+"<i>Payment Required</i> is set as Yes, any MarketPress product page having "
+"Appointments+ shortcodes will be regarded as an \"Appointment Product Page"
+"\". Those pages are automatically modified and you are not supposed to be "
+"doing anything special. For your information, here is how the integration "
+"works:"
+msgstr ""
+
+#: includes/support/app-faq.php:271
+msgid ""
+"An Appointment will be regarded as a digital product, therefore shipping "
+"information is not asked if ordered alone."
+msgstr ""
+
+#: includes/support/app-faq.php:274
+msgid ""
+"Like any other digital product, quantity of an appointment is always fixed "
+"to 1, but client can add as many appointments as he wishes with different "
+"variations, that is, with different date and time."
+msgstr ""
+
+#: includes/support/app-faq.php:277
+msgid ""
+"Download link that is normally added to confirmation email for digital "
+"product orders is removed."
+msgstr ""
+
+#: includes/support/app-faq.php:280
+msgid ""
+"Appointments in the cart are shown as \"Appointment Product Page Title: "
+"Appointment ID (Appointment date and time)\"."
+msgstr ""
+
+#: includes/support/app-faq.php:283
+msgid ""
+"\"Add to Cart\" and \"Buy Now\" buttons on the Appointment Product page are "
+"not visible until client confirms the appointment."
+msgstr ""
+
+#: includes/support/app-faq.php:286
+msgid ""
+"\"Add to Cart\" and \"Buy Now\" buttons are only possible for a full "
+"appointment product page, therefore on products list page, an Appointments+ "
+"product will always have a \"Choose Option\" button. No price will be shown. "
+"For the same reason, please use Single Product shortcode with only content="
+"\"full\" setting."
+msgstr ""
+
+#: includes/support/app-faq.php:289
+msgid ""
+"Paypal button of Appointments+ is invisible and thus its own Paypal Standard "
+"Payments option is disabled. Client will use the payment gateways "
+"MarketPress is providing. You can use all MarketPress payment gateways."
+msgstr ""
+
+#: includes/support/app-faq.php:292
+msgid "Quantity and Variation fields on the product page are always invisible."
+msgstr ""
+
+#: includes/support/app-faq.php:295
+msgid ""
+"Price of the appointment on the cart is the deposit price, if a deposit "
+"field is set. Otherwise it is the full price."
+msgstr ""
+
+#: includes/support/app-faq.php:298
+msgid ""
+"If an appointment product is manually removed from the cart by the client, "
+"its record will also be removed from the appointments table."
+msgstr ""
+
+#: includes/support/app-faq.php:301
+msgid ""
+"An appointment product can be automatically removed from the cart if "
+"\"Disable pending appointments after\" setting is set and client does not "
+"finalize the purchase during that time. Thus you may consider to add a "
+"warning note that transaction should be completed within the selected time."
+msgstr ""
+
+#: includes/support/app-faq.php:304
+msgid ""
+"If this happens while client is paying and client does pay, however, that "
+"appointment will be taken out from removed status and it will be marked as "
+"paid."
+msgstr ""
+
+#: includes/support/app-faq.php:307
+msgid ""
+"On the admin product management page if it is an Appointments+ Product, "
+"variations, SKU, price column fields will display \"-\"."
+msgstr ""
+
+#: includes/support/app-faq.php:310
+msgid ""
+"Transactions are shown in MarketPress, but related appointment record is "
+"updated, that is, status is changed to \"paid\"."
+msgstr ""
+
+#: includes/support/app-faq.php:313
+msgid ""
+"If Manual Payment gateway is activated and client uses that method, "
+"appointment will be in \"pending\" status until you manually confirm it."
+msgstr ""
+
+#: includes/support/app-faq.php:321
+msgid "<b>What does DUMMY service provider mean? How can I get use of it?</b>"
+msgstr ""
+
+#: includes/support/app-faq.php:323
+msgid ""
+"A Dummy service provider can be an imaginary or real user intended to enrich "
+"your business. It behaves exactly like a normal user, except that all emails "
+"are sent to a preselected real user from General settings tab. With this "
+"feature you can arrange your working schedules better and imitate several "
+"workers behaviour without losing the communication with the client. If you "
+"are combining several dummy providers into one real user, you can set "
+"service capacity to disallow more appointments than you can handle."
+msgstr ""
+
+#: includes/support/app-faq.php:329
+msgid ""
+"<b>How can I view my planner as a service provider in calendar view?</b>"
+msgstr ""
+
+#: includes/support/app-faq.php:331
+msgid ""
+"Create a private or password protected page and include the schedule "
+"shortcode like this: <code>[app_monthly_schedule worker=\"1\"]</code>. "
+"Replace 1 with your user ID which is the same as worker/provider ID. You can "
+"also use app_schedule shortcode for a weekly planner instead, or you can use "
+"both. You may consider adding app_pagination and app_my_appointments "
+"shortcodes too."
+msgstr ""
+
+#: includes/support/app-faq.php:337
+msgid ""
+"<b>My working hours cover the midnight and exceeds to the other day. For "
+"example from 8pm Monday to 2am Tuesday. Is it possible to set this?</b>"
+msgstr ""
+
+#: includes/support/app-faq.php:339
+msgid ""
+"Yes. Set your working hours as 24am to 24am (00:00 to 00:00) and your break "
+"hours as 2am to 8pm (02:00 to 20:00)."
+msgstr ""
+
+#: includes/support/app-faq.php:345
+msgid "<b>What are the prerequisites to use Google Calendar API?</b>"
+msgstr ""
+
+#: includes/support/app-faq.php:347
+msgid ""
+"PHP V5.3 or above, php extentions curl, JSON, http_build_query are required "
+"to use Google Calendar API. Also you need to have FTP access to your website "
+"in order to upload the private key file. This file cannot be uploaded using "
+"WordPress media upload function."
+msgstr ""
+
+#: includes/support/app-faq.php:353
+msgid ""
+"<b>Why do I need this Google Calendar API key file anyway? Isn't there any "
+"other way?</b>"
+msgstr ""
+
+#: includes/support/app-faq.php:355
+msgid ""
+"As of now, there is no other way and it is unlikely to be another way in the "
+"future. This key file serves as an electronic signature which proves that "
+"you grant access to your Google Calendar account."
+msgstr ""
+
+#: includes/support/app-faq.php:361
+msgid ""
+"<b>But I am using another application which does not need Google Calendar "
+"API key file. How does that application work then?</b>"
+msgstr ""
+
+#: includes/support/app-faq.php:363
+msgid ""
+"Such applications make the synchronisation when you are online. It is easy "
+"to receive your consent when your are online. Your being logged in is "
+"sufficient, but necessary. Here, we need your consent, thus electronic "
+"signature, even if you are offline, so that appointments can be submitted to "
+"your Google Calendar any time. For the same reason, each service provider "
+"who wants to synchronize his/her appointments with Google Calendar should "
+"carry out the required setup steps."
+msgstr ""
+
+#: includes/support/app-faq.php:369
+msgid ""
+"<b>Google Calendar Integration is not working and/or I am getting some "
+"errors. What can be the reasons and how can I solve them?</b>"
+msgstr ""
+
+#: includes/support/app-faq.php:371
+msgid ""
+"Always double check your settings and compare those with the tutorial video. "
+"Common mistakes: Calendar API is not turned on, service account does not "
+"have \"make changes to events\" authority, wrong calendar is selected."
+msgstr ""
+
+#: includes/support/app-faq.php:373
+msgid ""
+"There are some limitations of Google Calendar itself too: 1) Check that you "
+"are NOT using your primary calendar, 2) Check that your account is NOT a "
+"business account."
+msgstr ""
+
+#: includes/support/app-faq.php:375
+msgid ""
+"Some errors may not be displayed and can be saved in log file. Check Logs "
+"tab for those messages."
+msgstr ""
+
+#: includes/support/app-faq.php:377
+msgid ""
+"For details read instructions and notes in Google Calendar tab carefully."
+msgstr ""
+
+#: includes/support/app-faq.php:383
+msgid "<b>How can I let my service providers freely edit appointments?</b>"
+msgstr ""
+
+#: includes/support/app-faq.php:385
+msgid ""
+"Appointment records can only be edited on the admin side appointment page. "
+"Use an appropriate role/capability manager plugin and grant \"manage_options"
+"\" capability to your service providers. There are some plugins that let you "
+"select particular roles, even particular users/providers for this purpose."
+msgstr ""
+
+#: includes/support/app-faq.php:391
+msgid "<b>How can I let my clients cancel their own appointments?</b>"
+msgstr ""
+
+#: includes/support/app-faq.php:393
+msgid ""
+"First of all, you must set \"Allow client cancel own appointments\" setting "
+"as Yes. Then:"
+msgstr ""
+
+#: includes/support/app-faq.php:396
+msgid "A logged in client can cancel his appointments using his profile page."
+msgstr ""
+
+#: includes/support/app-faq.php:399
+msgid ""
+"Any client can cancel his own appointment using links in confirmation and/or "
+"reminder emails if you use CANCEL placeholder in your email bodies."
+msgstr ""
+
+#: includes/support/app-faq.php:402
+msgid ""
+"Any client can cancel his own appointment using the checkbox in my "
+"appointments table if you set allow_cancel=\"1\" in my_appointments "
+"shortcode."
+msgstr ""
+
+#: includes/support/app-faq.php:412
+msgid "Advanced"
+msgstr ""
+
+#: includes/support/app-faq.php:415
+msgid ""
+"This part of FAQ requires some knowledge about HTML, php and/or WordPress "
+"coding."
+msgstr ""
+
+#: includes/support/app-faq.php:421
+msgid "<b>Can I create my own page templates?</b>"
+msgstr ""
+
+#: includes/support/app-faq.php:423
+msgid ""
+"Yes. Using <code>do_shortcode</code> function and loading Appointments+ css "
+"and javascript files, you can do this. See sample-appointments-page.php file "
+"in /includes directory for a sample."
+msgstr ""
+
+#: includes/support/app-faq.php:429
+msgid ""
+"<b>I have customized the front.css file. How can I prevent it being "
+"overwritten by plugin updates?</b>"
+msgstr ""
+
+#: includes/support/app-faq.php:431
+msgid ""
+"Copy front.css content and paste it in css file of your theme. Add this code "
+"inside functions.php of the theme: <code>add_theme_support"
+"( \"appointments_style\" )</code>. Then, integral plugin css file front.css "
+"will not be called."
+msgstr ""
+
+#: includes/support/app-faq.php:437
+msgid "<b>Is it possible not to ask payment or deposit for certain users?</b>"
+msgstr ""
+
+#: includes/support/app-faq.php:439
+msgid ""
+"Please note that this is quite simple if you are using Membership plugin. If "
+"not, referring this filter create a function in your functions.php to set "
+"Paypal price as zero for the selected user, user role and/or service: <code>"
+"$paypal_price = apply_filters( 'app_paypal_amount', $paypal_price, $service, "
+"$worker, $user_id );</code> This will not make the service free of charge, "
+"but user will not be asked for an advance payment."
+msgstr ""
+
+#: includes/support/app-faq.php:445
+msgid ""
+"<b>How can I force the schedules start at a non standard time, for example "
+"9:15?</b>"
+msgstr ""
+
+#: includes/support/app-faq.php:447
+msgid ""
+"Add these codes inside functions.php of your current theme (9.25 is not a "
+"typo; that is because 15/60=0.25): "
+msgstr ""
+
+#: includes/support/app-faq.php:460
+msgid ""
+"<b>I want to accept more than one appointment applications for each time "
+"slot. Entering higher numbers in \"capacity\" field in Services tab does not "
+"work. Why?</b>"
+msgstr ""
+
+#: includes/support/app-faq.php:462
+msgid ""
+"Please note that Appointments+ is designed for one-to-one appointments, that "
+"is, one service provider serving a single client at a time and to manage "
+"available workforce. Capacity field is for limiting the workforce, not for "
+"increasing it. You have two alternatives to achieve this: a) Use dummy "
+"service providers b) Add these codes in functions.php and modify as required:"
+msgstr ""
+
+#: includes/support/app-faq.php:471
+msgid ""
+"This filter will NOT work if there is a single provider giving the selected "
+"service. Please also note that this is a kind of \"hack\" and when you have "
+"more than one service provider, this function may not work as expected in "
+"regards to working hours, as \"virtual\" providers will not be bound to "
+"working hours of existing providers. "
+msgstr ""
+
+#: includes/support/app-faq.php:477
+msgid "<b>How can I use HTML in emails?</b>"
+msgstr ""
+
+#: includes/support/app-faq.php:479
+msgid ""
+"Appointments+ uses wp_mail function and HTML is disabled as default. To "
+"enable HTML in emails, add these codes inside functions.php:"
+msgstr ""
+
+#: includes/support/app-faq.php:492
+msgid ""
+"<b>I have a time base of 10 minutes. I have services up to 480 minutes. How "
+"can I achieve this?</b>"
+msgstr ""
+
+#: includes/support/app-faq.php:494
+msgid ""
+"The following example lets you select services with durations up to "
+"48*10=480 minutes. Add these codes inside functions.php:"
+msgstr ""
+
+#: includes/support/app-faq.php:507
+msgid ""
+"<b>How can I redirect a user after a confirmed appointment to a thank you "
+"page when payment is not required?</b>"
+msgstr ""
+
+#: includes/support/app-faq.php:509
+msgid ""
+"Add these codes inside functions.php and modify the example.com url as "
+"required:"
+msgstr ""
+
+#: includes/support/app-faq.php:523
+msgid ""
+"<b>How can I show hours instead of minutes in the front end when my services "
+"last more than an hour?</b>"
+msgstr ""
+
+#: includes/support/app-faq.php:525
+msgid "Use this sample and modify as required:"
+msgstr ""
+
+#: includes/support/app-shortcodes.php:2
+msgid ""
+"Appointments+ uses shortcodes to generate output on the front end. This "
+"gives you the flexibility to customize your appointment pages using the "
+"WordPress post editor without the need for php coding. There are several "
+"parameters of the shortcodes by which your customizations can be really "
+"custom. On the other hand, if you don't set these parameters, Appointments+ "
+"will still work properly. Thus, setting parameters is fully optional. <br /"
+"><b>Important:</b> You should temporarily turn off built in cache while "
+"making changes in the parameters or adding new shortcodes."
+msgstr ""
+
+#: includes/support/app-shortcodes.php:4
+msgid ""
+"<b>Note:</b> As default, all \"title\" parameters are wrapped with h3 tag. "
+"But of course you can override them by entering your own title text, with a "
+"different h tag, or without any tag. For example: <code>"
+"[app_monthly_schedule title=\"&lt;h4&gt;My schedule for START&lt;/h4&gt;\"]</"
+"code>"
+msgstr ""
+
+#: includes/support/class_app_admin_help.php:33
+msgid "Appointments+"
+msgstr ""
+
+#: includes/support/class_app_admin_help.php:35
+msgid ""
+"Lets you accept appointments from front end and manage or create them from "
+"admin side."
+msgstr ""
+
+#: includes/support/class_app_admin_help.php:38
+msgid "Project page"
+msgstr ""
+
+#: includes/support/class_app_admin_help.php:39
+msgid "Installation and instructions page"
+msgstr ""
+
+#: includes/support/class_app_admin_help.php:40
+msgid "Support forum"
+msgstr ""
+
+#: includes/support/class_app_admin_help.php:54
+msgid "Appointments shortcodes"
+msgstr ""
+
+#: includes/support/class_app_tutorial.php:33
+msgid "Appointments+ Tutorial"
+msgstr ""
+
+#: includes/support/class_app_tutorial.php:34
+msgid ""
+"Welcome to Appointments+ plugin. This tutorial will hopefully help you to "
+"make a quick start by adjusting the most important settings to your needs. "
+"You can restart this tutorial any time clicking the link on the FAQ page."
+msgstr ""
+
+#: includes/support/class_app_tutorial.php:38
+msgid "Time Base"
+msgstr ""
+
+#: includes/support/class_app_tutorial.php:39
+msgid ""
+"Time Base is the most important parameter of Appointments+. It is the "
+"minimum time that you can select for your appointments. If you set it too "
+"high then you may not be possible to optimize your appointments. If you set "
+"it too low, your schedule will be too crowded and you may have difficulty in "
+"managing your appointments. You should enter here the duration of the "
+"shortest service you are providing."
+msgstr ""
+
+#: includes/support/class_app_tutorial.php:43
+#: includes/support/class_app_tutorial.php:48
+msgid "Creating a functional front end appointment page"
+msgstr ""
+
+#: includes/support/class_app_tutorial.php:44
+msgid ""
+"Appointments+ provides an easy way of creating an appointment page. Check "
+"this checkbox to include all shortcodes in a full functional page. You can "
+"later edit this page."
+msgstr ""
+
+#: includes/support/class_app_tutorial.php:49
+msgid ""
+"You can select a schedule type from the list. To see how they look, you can "
+"also create more than one page, one by one and then delete unused ones."
+msgstr ""
+
+#: includes/support/class_app_tutorial.php:53
+msgid "Selecting a Color Set to Match Your Theme"
+msgstr ""
+
+#: includes/support/class_app_tutorial.php:54
+msgid ""
+"It is possible to select color sets for your schedule tables from predefined "
+"sets, or customize them. When you select Custom, you will be able to set "
+"your own colors for different statuses (Busy, free, not possible/not "
+"working)."
+msgstr ""
+
+#: includes/support/class_app_tutorial.php:58
+msgid "Do you require login?"
+msgstr ""
+
+#: includes/support/class_app_tutorial.php:59
+msgid ""
+"You can set whether client is required to log into the website to apply for "
+"an appointment. When you select this setting as Yes, you will see additional "
+"settings."
+msgstr ""
+
+#: includes/support/class_app_tutorial.php:63
+msgid "Requiring information from client"
+msgstr ""
+
+#: includes/support/class_app_tutorial.php:64
+msgid ""
+"You may ask the client to fill some selectable fields so that they may not "
+"need to register on your website."
+msgstr ""
+
+#: includes/support/class_app_tutorial.php:68
+msgid "Do you require payment?"
+msgstr ""
+
+#: includes/support/class_app_tutorial.php:69
+msgid ""
+"You can set whether client is asked for a payment to accept his appointment. "
+"If this setting is selected as Yes, appointment will be in pending status "
+"until a succesful Paypal payment is completed. After you select this, you "
+"will see additional fields for your Paypal account, deposits and integration "
+"with Membership plugin."
+msgstr ""
+
+#: includes/support/class_app_tutorial.php:73
+msgid "Email notifications"
+msgstr ""
+
+#: includes/support/class_app_tutorial.php:74
+msgid ""
+"There are several notification settings. Using these, you can confirm and "
+"remind your clients and also your service providers."
+msgstr ""
+
+#: includes/support/class_app_tutorial.php:78
+msgid "Built-in Cache"
+msgstr ""
+
+#: includes/support/class_app_tutorial.php:79
+msgid ""
+"Appointments+ comes with a built-in specific cache. It functions only on "
+"appointment pages and caches the content part of the page only. It is "
+"recommended to enable it especially if you have a high traffic appointment "
+"page. You can continue to use other general purpose caching plugins like "
+"W3T, WP Super Cache, Quick Cache."
+msgstr ""
+
+#: includes/support/class_app_tutorial.php:84
+#: includes/support/class_app_tutorial.php:99
+msgid "Do not forget to save your settings."
+msgstr ""
+
+#: includes/support/class_app_tutorial.php:88
+#: includes/support/class_app_tutorial.php:93
+msgid "Setting your business hours"
+msgstr ""
+
+#: includes/support/class_app_tutorial.php:89
+msgid ""
+"Now you should set your business working hours. Click Working Hours tab and "
+"then click Next."
+msgstr ""
+
+#: includes/support/class_app_tutorial.php:94
+msgid ""
+"Below you will see two tables, one for your working hours and the other for "
+"your break hours during the day. The second one is optional. On the left you "
+"will see no selection options yet. But as you add new services providers, "
+"you can set their working and break hours by selecting from this dropdown "
+"menu. This is only necessary if their working hours are different from those "
+"of your business."
+msgstr ""
+
+#: includes/support/class_app_tutorial.php:103
+msgid "Entering your holidays"
+msgstr ""
+
+#: includes/support/class_app_tutorial.php:104
+msgid "Click the Exceptions tab to define your holidays and then click Next."
+msgstr ""
+
+#: includes/support/class_app_tutorial.php:108
+msgid "Setting exceptional days"
+msgstr ""
+
+#: includes/support/class_app_tutorial.php:109
+msgid ""
+"Below you can define your holidays and exceptional working days, for example "
+"a specific Sunday you want to work on. These dates will override your weekly "
+"working schedule for that day only. Note that you will be able to set these "
+"exceptional days for each service provider individually, when you define "
+"them."
+msgstr ""
+
+#: includes/support/class_app_tutorial.php:113
+#: includes/support/class_app_tutorial.php:118
+msgid "Setting your services"
+msgstr ""
+
+#: includes/support/class_app_tutorial.php:114
+msgid "Click the Services tab to set your services and then click Next."
+msgstr ""
+
+#: includes/support/class_app_tutorial.php:119
+msgid ""
+"You can add new service by clicking this button. A default service should "
+"have been installed during installation. You can edit and even delete that "
+"too, but you should have at least one service in this table."
+msgstr ""
+
+#: includes/support/class_app_tutorial.php:124
+msgid ""
+"Do not forget to save your settings. Clicking Add New Service button does "
+"NOT save it to the database until you click the Save button."
+msgstr ""
+
+#: includes/support/class_app_tutorial.php:128
+msgid "Adding and setting your service providers"
+msgstr ""
+
+#: includes/support/class_app_tutorial.php:129
+msgid ""
+"Click the Service Providers tab to set your service providers and then click "
+"Next."
+msgstr ""
+
+#: includes/support/class_app_tutorial.php:133
+msgid "Adding service providers"
+msgstr ""
+
+#: includes/support/class_app_tutorial.php:134
+msgid ""
+"Adding service providers is optional. You may need this if the working "
+"schedule of your service providers are different or you want the client to "
+"pick a provider by his name. You can add new service provider by clicking "
+"this button. "
+msgstr ""
+
+#: includes/support/class_app_tutorial.php:139
+msgid "Additional Information"
+msgstr ""
+
+#: includes/support/class_app_tutorial.php:140
+msgid ""
+"You can find detailed information about shortcode parameters on the "
+"Shortcodes page and answers to common questions on the FAQ page. Of course "
+"we will be glad to help you on our Community pages too."
+msgstr ""
+
+#: includes/support/class_app_tutorial.php:144
+#: includes/support/class_app_tutorial.php:175
+msgid "Appointment List"
+msgstr ""
+
+#: includes/support/class_app_tutorial.php:145
+msgid ""
+"As you start receiving appointments, you will see them here. Click on the "
+"Appointments menu item to start the other tutorial, if you have not seen it "
+"yet."
+msgstr ""
+
+#: includes/support/class_app_tutorial.php:176
+msgid ""
+"Appointment records are grouped by their statuses. You can see these "
+"groupings by clicking the Info icon."
+msgstr ""
+
+#: includes/support/class_app_tutorial.php:180
+msgid "Entering a Manual Appointment"
+msgstr ""
+
+#: includes/support/class_app_tutorial.php:181
+msgid ""
+"When you received appointments from your clients, they will be added to this "
+"page automatically. But you can always add a new appointment manually. "
+"Please click ADD NEW link and then click Next."
+msgstr ""
+
+#: includes/support/class_app_tutorial.php:185
+#: includes/support/class_app_tutorial.php:195
+#: includes/support/class_app_tutorial.php:200
+msgid "Entering Data for the New Appointment"
+msgstr ""
+
+#: includes/support/class_app_tutorial.php:186
+msgid ""
+"As you can see, you can enter all parameters here. Enter some random values "
+"and select status as PENDING, for this example. Then click Next"
+msgstr ""
+
+#: includes/support/class_app_tutorial.php:190
+msgid "Sending Confirmation emails Manually"
+msgstr ""
+
+#: includes/support/class_app_tutorial.php:191
+msgid ""
+"If you require payment, confirmation email is automatically sent after a "
+"Paypal payment. However if you are confirming appointments manually, you "
+"should check this checkbox for a confirmation email to be sent. You can also "
+"use this option for resending the confirmation email, e.g. after "
+"rescheduling an appointment."
+msgstr ""
+
+#: includes/support/class_app_tutorial.php:196
+msgid "Save and then click Next."
+msgstr ""
+
+#: includes/support/class_app_tutorial.php:201
+msgid ""
+"The result is shown here. Normally you should get a success message. "
+"Otherwise it means that you have a javascript problem on admin side."
+msgstr ""
+
+#: includes/support/class_app_tutorial.php:205
+msgid "Save New Appointment"
+msgstr ""
+
+#: includes/support/class_app_tutorial.php:206
+msgid ""
+"As we added this appointment as \"Pending\" we will see it under Pending "
+"appointments. Click Pending appointments and then click Next."
+msgstr ""
+
+#: includes/support/class_app_tutorial.php:210
+msgid "Editing an Appointment"
+msgstr ""
+
+#: includes/support/class_app_tutorial.php:211
+msgid ""
+"You can edit any appointment record. Just hover on the record and then click "
+"See Details and Edit"
+msgstr ""
+
+#: includes/support/class_app_tutorial.php:216
+msgid ""
+"It is always possible to Cancel. Please note that these records are NOT "
+"saved until you click the Save button. Thanks for using Appointments+"
+msgstr ""

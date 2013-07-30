@@ -1,0 +1,61 @@
+/* Styles related to the WP admin bar */
+span.wpmudev-chat-ab-icon,
+#wpadminbar li#wp-admin-bar-wpmudev-chat-container .wpmudev-chat-ab-icon {
+    float: left;
+    height: 16px;
+    position: relative;
+    width: 16px;
+	margin-right: 5px;
+}
+
+span.wpmudev-chat-ab-icon {
+	background-size: 100%;
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	background-image: url("../images/icon_status_red.png");
+}
+
+span.wpmudev-chat-ab-icon-available {
+	background-image: url("../images/icon_status_green.png");
+}
+
+#wpadminbar li#wp-admin-bar-wpmudev-chat-container .wpmudev-chat-ab-icon {
+    margin-top: 6px;
+}
+
+#wpadminbar li#wp-admin-bar-wpmudev-chat-container:hover span.wpmudev-chat-ab-label {
+	color: #333333;
+	text-shadow: none;
+}
+
+#wpadminbar #wp-admin-bar-wpmudev-chat-container div.ab-sub-wrapper li#wp-admin-bar-wpmudev-chat-user-statuses div.ab-item span.wpmudev-chat-user-status-label {
+	color: inherit;
+	text-shadow: none;
+	cursor: pointer;
+}
+
+body.mp6 #wpadminbar li#wp-admin-bar-wpmudev-chat-container:hover span.wpmudev-chat-ab-label,
+body.mp6 #wpadminbar #wp-admin-bar-wpmudev-chat-container div.ab-sub-wrapper li#wp-admin-bar-wpmudev-chat-user-statuses div.ab-item span.wpmudev-chat-user-status-label {
+	color: inherit;
+}
+
+#wpadminbar li#wp-admin-bar-wpmudev-chat-container li.wpmudev-chat-user-status-current {
+	display: none;
+}
+
+body.buddypress ul#members-list div.action div.wpmudev-chat-now-button {
+	margin-bottom: 10px;
+}
+
+body.buddypress ul#member-list div.action div.wpmudev-chat-now-button {
+	margin-top: 10px;
+}
+
+body.buddypress ul#members-list div.action div.wpmudev-chat-now-button a.wpmudev-chat-button,
+body.buddypress ul#member-list div.action div.wpmudev-chat-now-button a.wpmudev-chat-button {
+	display: block;
+}
+
+
+
+/* 36617-1375208134 */
